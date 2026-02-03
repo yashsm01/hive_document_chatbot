@@ -2,6 +2,10 @@
 
 Tool library for the Aden agent framework. Provides a collection of tools that AI agents can use to interact with external systems, process data, and perform actions via the Model Context Protocol (MCP).
 
+> [!IMPORTANT]
+> **🆕 New Contribution:** [Documentation Chatbot](../docs/chatbot/README.md) - AI-powered assistant for navigating Aden docs
+
+
 ## Installation
 
 ```bash
