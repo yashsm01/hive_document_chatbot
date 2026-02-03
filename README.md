@@ -62,6 +62,39 @@ Aden is a platform for building, deploying, operating, and adapting AI agents:
 <!-- - **[Roadmap](https://adenhq.com/roadmap)** - Upcoming features and plans -->
 - **[Report Issues](https://github.com/adenhq/hive/issues)** - Bug reports and feature requests
 
+## 🤖 Documentation Chatbot (New!)
+
+An AI-powered chatbot that helps developers and users navigate Aden documentation quickly.
+
+```bash
+# Run the chatbot
+python docs/chatbot/chatbot_llm.py
+
+# Ask questions
+👤 You: How to create my first agent?
+🤖 Bot: To create your first agent, follow these steps...
+```
+
+**Features:**
+- 🔍 Instant answers from indexed documentation
+- 💻 Code examples and snippets included
+- 🧠 LLM-powered (Gemini/OpenAI/Anthropic)
+- ⚡ Fallback mode works without API key
+
+**[📖 Chatbot Documentation](docs/chatbot/README.md)** | **[MCP Server Guide](docs/MCP_SERVER_USAGE.md)**
+
+### Future Scope
+
+| Feature | Description | Status |
+|---------|-------------|--------|
+| **Web Interface** | Browser-based chat UI for docs | 🔜 Planned |
+| **Slack/Discord Bot** | Integrate chatbot into team channels | 🔜 Planned |
+| **Multi-language Support** | Answer in user's preferred language | 🔜 Planned |
+| **Code Generation** | Generate agent code from descriptions | 🔜 Planned |
+| **Interactive Tutorials** | Step-by-step guided walkthroughs | 🔜 Planned |
+| **API Endpoint** | REST API for chatbot queries | 🔜 Planned |
+
+
 ## Quick Start
 
 ### Prerequisites
